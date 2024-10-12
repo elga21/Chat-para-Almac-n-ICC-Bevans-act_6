@@ -1,0 +1,21 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Almacén ICC Bevans</title>
+    <link rel="stylesheet" href="style.css"> <!-- Vincula el archivo CSS -->
+    <script src="/socket.io/socket.io.js"></script> <!-- Importa Socket.IO -->
+    <script src="app.js" defer></script> <!-- Vincula el archivo JS -->
+</head>
+<body>
+    <h1>Chat Almacén ICC Bevans</h1>
+    <div id="mensajes"></div> <!-- Div para mostrar los mensajes -->
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="text" id="mensaje" placeholder="Tu mensaje" required>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
